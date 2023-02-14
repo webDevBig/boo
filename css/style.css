@@ -55,6 +55,13 @@ h3 {
   margin-bottom:  90px;
 
 }
+.range
+{
+  margin: 40px 0 0;
+}
+.range .thumb {
+    transform: scale(1);
+}
 
 /*========================== Common style ========================== */
 
