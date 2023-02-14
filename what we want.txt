@@ -1,0 +1,18 @@
+If you open profile-personal.html :
+
+You see height and weight.
+
+We want this in a slider.
+
+So new line
+
+Height
+[single range slider]
+
+Weight
+[single range slider]
+
+With languages we need a multiple checkbox. So you can click multiple languages. MD Bootstrap covers this.
+
+We use MD Bootstrap. It's important to use the MD Bootstrap. Don't use external scripts if MD bootstrap can cover it. We have the PRO version. So single range slidre + multiple checkbox = MD Bootstrap.
+
