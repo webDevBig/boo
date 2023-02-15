@@ -70,6 +70,26 @@ h3 {
   top: 80%;
 }
 
+.form-range::-webkit-slider-thumb:active {
+  position: relative;
+  background-color: #1d1d1d;
+}
+
+.form-range::-webkit-slider-thumb:active::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: rgba(187, 187, 187, .5);
+  opacity: .3;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.5625rem;
+  margin-left: -1.5625rem;
+}
+
 .range .thumb .thumb-value {
   color: #00aff0 !important;
 }
