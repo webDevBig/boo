@@ -39,9 +39,13 @@
 .row-options .fas {
   font-size: 1.25rem;
 }
-.row-options .col-11
-{
+
+.row-options .col-11,
+.row-options .col-1 {
   padding: 0;
+}
+.row-options .col-1 {
+  width: 6.333333%;
 }
 
 .input-info h5 {
