@@ -1,0 +1,148 @@
+.container-header {
+  padding-top: 18px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #017bfd;
+}
+
+.profile-wrapper {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.clm-info {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.clm-info h3 {
+  font-weight: 600;
+  font-family: "Segoe UI Bold";
+}
+
+.input-info {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.input-info h3,
+.fas {
+  color: #027bfe;
+}
+
+.row-options .fas {
+  font-size: 1.25rem;
+}
+.row-options .col-11
+{
+  padding: 0;
+}
+
+.input-info h5 {
+  color: #81bdff;
+}
+
+.options-field .form-check-input {
+  width: 16px;
+  height: 16px;
+  border-color: #027bfe;
+  margin-top: 0;
+}
+
+
+.profile-service-container .form-check-input[type="checkbox"]:checked {
+  background-color: #027bfe;
+}
+
+.form-check-input[type=checkbox]:checked:after {
+  height: 0.5125rem;
+  margin-top: 1.5px;
+}
+
+
+.form-check-input[type=checkbox]::after {
+  background-color: transparent;
+}
+
+.form-check-input:hover:before {
+  box-shadow: none;
+  border-radius: 0.25rem;
+}
+
+.form-check-input::before {
+  box-shadow: none;
+  border-radius: 0.25rem;
+}
+
+.form-check-input:checked:focus:before,
+.form-check-input:focus:before .form-check-input:checked:focus:after,
+.form-check-input:focus:after {
+  box-shadow: none;
+  border-radius: 0.25rem;
+}
+
+.form-check-input:focus:before {
+  opacity: 0;
+}
+
+.form-check-input[type=checkbox]:focus:after {
+  background-color: transparent;
+}
+
+.checkbox-item label {
+  font-family: "Segoe UI Regular";
+  font-size: 1.1rem;
+  color: #0262cb !important;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  width: auto;
+}
+
+.form-check-input:checked+label {
+  font-family: "Segoe UI Bold";
+}
+
+.text-input {
+  width: 112px;
+  height: 22px;
+  border: 1px solid #81bdff;
+  color: #027bfe;
+  font-family: "Segoe UI SemiBold";
+  font-size: 1rem;
+  box-shadow: none;
+  outline: none;
+  padding: 0 6px;
+  text-align: right;
+}
+
+.text-input:disabled {
+  background-color: #81bdff;
+}
+
+.row-options {
+  width: 100%;
+  margin: 0;
+  /* display: flex; */
+
+}
+
+.form-outline {
+  width: auto;
+}
+
+.row-options .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
